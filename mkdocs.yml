@@ -1,0 +1,21 @@
+site_name: CrystalENVT
+theme:
+  name: simple-blog
+  theme_style: dark
+  components:
+    title: false
+    preview: false
+    footer: false
+markdown_extensions:
+  - attr_list
+  - tables
+plugins:
+  - awesome-pages
+  - search
+  - minify_html
+  - redirects:
+      redirect_maps:
+        # Example Redirect - internal
+        'HelloWorld.md': 'index.md'
+        # Example Redirect - External
+        'example.md': 'https://example.com'
